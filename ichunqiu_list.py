@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-#www.5a5x.com
-#获取源码
-
 
 import urllib
 import requests
@@ -35,7 +32,6 @@ headers = {
     'Accept-Language': 'zh-CN,zh;q=0.9',
     'referer': 'https://bbs.ichunqiu.com/forum.php',
 }
-#'cookie': 'aUZ1_2132_saltkey=Rdwz5wuM; aUZ1_2132_lastvisit=1539745820; __jsluid=1bf94b62d37ddefec84b183c170019f3; UM_distinctid=16680379465fa-01cc2f0f3358a4-5c10301c-13c680-16680379467111; aUZ1_2132_atarget=1; aUZ1_2132_home_diymode=1; aUZ1_2132__refer=%252Fhome.php%253Fmod%253Dspacecp%2526ac%253Dusergroup%2526gid%253D11; aUZ1_2132_visitedfid=59D41D49D81D60; CNZZDATA1262179880=79877067-1539746917-https%253A%252F%252Fwww.baidu.com%252F%7C1540363829; aUZ1_2132_st_p=0%7C1540366561%7Cdb26d0f99e34527802f8d33ea261736c; aUZ1_2132_viewid=tid_40334; Hm_lvt_a05b2675ca344b30c2cc9dc221706782=1539749418,1540198601,1540366569; aUZ1_2132_sid=qHPF9B; aUZ1_2132_st_t=0%7C1540366929%7C736bd877a3eaa0debf3a919935237c3e; aUZ1_2132_forum_lastvisit=D_60_1539749458D_49_1540198643D_81_1540198665D_59_1540366929; aUZ1_2132_seccode=397.10dbfc9ffca1d8e153; aUZ1_2132_lastact=1540367005%09forum.php%09; Hm_lpvt_a05b2675ca344b30c2cc9dc221706782=1540367007'
 
 def get_id(page):
     url = 'https://bbs.ichunqiu.com/forum.php?mod=forumdisplay&fid=59&orderby=dateline&orderby=dateline&filter=author&page={0}'.format(page)
