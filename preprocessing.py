@@ -117,7 +117,6 @@ def is_english(uchar):
     else:
         return False
 
-
 #利用jiaba进行分词
 def jieba_text(dict):
     post_text = dict['post_text_chi_eng']
