@@ -2,7 +2,6 @@
 #www.ichunqiu.com
 #获取帖子的内容
 
-
 import urllib
 import requests
 import random
