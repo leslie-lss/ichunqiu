@@ -51,7 +51,7 @@ Xpath：//*[starts-with(@id,'normalthread_')]/tr/th/a[1]/@href
 
 帖子每一页的主要内容均处于id=”postlist”的div标签中，如下图所示：
 
-
+>![帖子页面结构](https://github.com/leslie-lss/ichunqiu/blob/master/image.png)
 
 其中：
 
